@@ -59,7 +59,8 @@ class Call extends Resource
             'totalRate' => $response['total_rate'],
             'hangupCauseCode' => $response['hangup_cause_code'],
             'hangupCauseName' => $response['hangup_cause_name'],
-            'hangupSource' => $response['hangup_source']
+            'hangupSource' => $response['hangup_source'],
+            'voiceNetworkGroup' => $response['voice_network_group']
         ];
 
         $this->pathParams = [
