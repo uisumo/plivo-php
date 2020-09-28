@@ -26,6 +26,7 @@ use Plivo\Resources\Resource;
  * @property string $hangupCauseCode Hangup Cause Code
  * @property string $hangupCauseName Hangup Cause Name
  * @property string $hangupSource Hangup Source
+ * @property string $voiceNetworkGroup Voice Network Group
  */
 class Call extends Resource
 {
